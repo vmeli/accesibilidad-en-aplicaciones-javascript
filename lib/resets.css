@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+:root {
+  --color-text:  #000000;
+  --color-background:  #FFFFFF;
+  --color-neutral: #999999;
+  --color-primary: #2962ff;
+  --color-secondary: #03a9f4;
+  --font-primary: 'Ubuntu';
+  --font-secondary: 'Ubuntu';
+  --font-regular: 400;
+  --font-bold: 700;
+  --font-xs: 1.4rem;
+  --font-s: 1.6rem;
+  --font-m: 1.8rem;
+  --font-l: 3rem;
+  --font-xl: 4rem;
+  --font-xxl: 5rem;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-primary);
+  font-weight: var(--font-regular);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-secondary);
+  font-weight: var(--font-bold);
+  color: var(--color-primary);
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+button {
+  border: none;
+}
+
+#root {
+  isolation: isolate;
+  height: 100%;
+}
