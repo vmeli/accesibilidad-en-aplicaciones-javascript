@@ -57,17 +57,16 @@ Este workshop esta dividido en 14 lecciones, cada una de ella es un pequeño pro
 - `NUMERO.solution.jsx`: El componente de React con la solución final del reto. Intenta no ver este archivo hasta que hayas terminado o no tengas idea de como continuar.
 - `NUMERO.css`: Los estilos asociados a `NUMERO.jsx`. Solo debes usarlos cuando el reto este relacionado con CSS accesible.
 
-## Sigue las pistas 🐵 🐸 🐼 🐝
+## Sigue las pistas 🟡 🟣 🔴
 
 En cada reto encontrarás pistas y sugerencias que nuestros amigos han dejado para ayudarte a solucionar cada uno de los problemas. Identifica a tus amigos y entiende cual es su función en este workshop:
 
 
 | **Emoji** | **Descripción**                                                        |
 |:---------:|----------------------------------------------------------------------|
-| Luis el mono 🐵 | Qui minim enim aliquip dolor ex aute laboris sit exercitation deserunt |
-| Dana la rana 🐸 | Qui minim enim aliquip dolor ex aute laboris sit exercitation deserunt |
-| Zumo el panda 🐼 | Qui minim enim aliquip dolor ex aute laboris sit exercitation deserunt |
-| Perla la abeja 🐝 | Qui minim enim aliquip dolor ex aute laboris sit exercitation deserunt |
+| 🟡 | Qui minim enim aliquip dolor ex aute laboris sit exercitation deserunt |
+| 🟣 | Qui minim enim aliquip dolor ex aute laboris sit exercitation deserunt |
+| 🔴 | Qui minim enim aliquip dolor ex aute laboris sit exercitation deserunt |
 
 ## Acerca de mi 👋
 
@@ -78,8 +77,8 @@ Mi nombre es Mateo Garcia, soy un Frontend Developer establecido en Medellin, Co
 
 ### Donde encontrarme 🔍
 
-- [Twitter](https://git-scm.com/)
+- [Twitter](https://twitter.com/_teo_garcia)
 
-- [Github](https://twitter.com/_teo_garcia)
+- [Github](https://github.com/teo-garcia)
 
-- [Linkedin](https://www.linkedin.com/in/teogarcia0/)
+- [Linkedin](https://www.linkedin.com/in/teogarcia0)
