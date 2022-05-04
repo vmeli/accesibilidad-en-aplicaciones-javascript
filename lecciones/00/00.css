@@ -1,0 +1,41 @@
+
+.article {
+  max-width: 768px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 120px 32px;
+}
+
+.title {
+  font-weight: var(--font-bold);
+  color: var(--color-primary);
+}
+
+.title--xxl {
+  font-size: var(--font-xxl);
+}
+
+.title--xl {
+  font-size: var(--font-xl);
+}
+
+.title--l {
+  font-size: var(--font-l);
+}
+
+.paragraph {
+  font-size: var(--font-m);
+  margin: 16px 0;
+}
+
+.list {
+  margin: 0 24px;
+}
+
+.list-item {
+  font-size: var(--font-m);
+  margin: 16px 0;
+}
