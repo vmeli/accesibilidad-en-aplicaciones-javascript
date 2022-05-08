@@ -4,10 +4,11 @@ import ReactDOM from 'react-dom/client';
 import App from './00';
 import AppFinal from './00.final';
 
-const isFinal = false;
+const previewMode = 'NEW';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {isFinal ? <AppFinal /> : <App />}
+    {previewMode === 'NEW' ? <App /> : null}
+    {previewMode === 'FINAL' ? <AppFinal /> : null}
   </React.StrictMode>
 );

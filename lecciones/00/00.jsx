@@ -2,8 +2,8 @@ import './00.css';
 
 /* 
   Ejercicio 00 💻
-  1. Reemplaza las etiquetas div con etiquetas mas semanticas como main, section, article 🟡
-  2. Reemplaza los pseudo titulos con etiquetas h1, h2 y h3 segun como se ve en el browser 🟡
+  1. Usa etiquetas más semanticas como main, section, article 🟡
+  2. Reemplaza los pseudo titulos con etiquetas h1, h2 y h3 segun como se ve en el navegador 🟡
   3. Reemplaza las pseudo listas y sus pseudo items con etiquetas ul y li 🟡
 */
 function App() {

@@ -40,7 +40,7 @@ Puedes hacer un checkeo básico de estas herramientas usando la terminal:
     cd accesibilidad-en-aplicaciones-react && npm i
   ```
 
-3. Abre el repositorio haciendo usando VSCode:
+3. Abre el repositorio haciendo uso de VSCode:
 
 ```bash
   code .

@@ -7,7 +7,15 @@
   "scripts": {
     "start": "node lib/runner.js"
   },
-  "keywords": ["html", "css", "javascript", "react", "accessibility", "workshop", "vite"],
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "react",
+    "accessibility",
+    "workshop",
+    "vite"
+  ],
   "license": "ISC",
   "devDependencies": {
     "chalk": "^4.1.2",
