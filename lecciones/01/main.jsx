@@ -11,6 +11,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {previewMode === 'NEW' ? <App /> : null}
     {previewMode === 'FINAL' ? <AppFinal /> : null}
-    {previewMode === 'EXTRA' ? <AppExtra01 /> : null}
+    {previewMode === 'EXTRA_01' ? <AppExtra01 /> : null}
   </React.StrictMode>
 );
