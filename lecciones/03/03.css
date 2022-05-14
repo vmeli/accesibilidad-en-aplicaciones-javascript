@@ -1,67 +1,70 @@
 .content {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  height: 100%;
-}
-
-.gallery {
-  padding: 28px 64px;
-  text-align: center;
-}
-
-.gallery__title {
-  font-size: 7rem;
-  margin: 32px 0;
-}
-
-.gallery__list {
-  list-style: none;
-  display: grid;
-  justify-items: center;
   align-items: center;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 32px;
-}
-
-.gallery__item {
-  cursor: pointer;
-}
-
-
-.gallery__pic {
-  border-radius: 8px;
-  width: 250px;
-  height: 250px;
-  object-fit: cover;
-}
-
-.preview {
-  background-color: var(--color-primary);
-  position: relative;
-  padding: 200px 0;
-  overflow-x: hidden;
-}
-
-.preview__decoration {
-  position: absolute;
-  top: 0;
-  right: 0;
-  transform: translate(50%, -50%);
-  width: 400px;
-}
-
-.preview__container {
+  display: flex;
+  flex-flow: column;
+  gap: 32px 0;
+  height: 100%;
+  justify-content: center;
   margin: 0 auto;
-  width: 80%;
+  width: 320px;
 }
 
-.preview__pic {
-  border-radius: 4px;
-  object-fit: cover;
+.title {
+  color: var(--color-primary);
+  font-size: var(--font-xxl);
+  font-weight: var(--font-bold);
 }
 
-.preview__description {
+.screen {
+  align-items: center;
+  background-color: var(--color-neutral);
+  border-radius: 8px;
+  display: flex;
+  height: 64px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0 32px;
+  width: 100%;
+}
+
+.screen__text {
   font-size: var(--font-l);
+  font-weight: var(--font-bold);
+  letter-spacing: 2px;
+  width: 100%;
+}
+
+.buttons {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+.button {
+  align-items: center;
+  background-color: var(--color-primary);
+  border-bottom: 4px solid var(--color-secondary);
+  border-radius: 8px;
   color: var(--color-background);
-  margin: 24px 0;
+  display: flex;
+  font-size: var(--font-l);
+  font-weight: var(--font-bold);
+  height: 80px;
+  justify-content: center;
+  width: 80px;
+}
+
+.button--reset {
+  background-color: var(--color-neutral);
+  color: var(--color-text);
+  width: 100%;
+}
+
+.indicatives {
+  font-size: var(--font-m);
+}
+
+.indicatives__link {
+  text-decoration: underline;
 }

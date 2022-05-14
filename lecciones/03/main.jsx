@@ -6,7 +6,7 @@ import AppFinal from './03.final';
 import AppExtra01 from './03.extra.01';
 import AppExtra02 from './03.extra.02';
 
-const previewMode = 'EXTRA_01';
+const previewMode = 'NEW';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
