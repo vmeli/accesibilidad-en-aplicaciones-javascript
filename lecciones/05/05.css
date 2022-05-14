@@ -1,0 +1,88 @@
+.content {
+  display: flex;
+  height: 100%;
+}
+
+.section {
+  width: 50%;
+  height: 100%;
+}
+
+.background {
+  height: 100%;
+  object-fit: cover;
+}
+
+.section--form {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 8rem;
+  margin: 32px 0;
+}
+
+.form {
+  width: 60%;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  gap: 12px 0;
+}
+
+.label {
+  font-weight: var(--font-bold);
+  font-size: var(--font-l);
+  color: var(--color-secondary);
+}
+
+.input {
+  border-radius: 8px;
+  padding: 12px;
+  font-size: var(--font-s);
+  width: 100%;
+  position: relative;
+  border: 2px solid var(--color-neutral);
+}
+
+.input:invalid {
+  border: 2px solid red;
+}
+
+.input:invalid + .error {
+  visibility: visible;
+}
+
+.error {
+  font-size: var(--font-m);
+  font-weight: bold;
+  visibility: hidden;
+  color: red;
+}
+
+
+
+
+.actions {
+  margin: 32px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  background-color: var(--color-primary);
+  color: var(--color-background);
+  font-size: var(--font-l);
+  padding: 4px 0;
+  border-radius: 8px;
+  width: calc(95% / 2);
+  font-weight: bold;
+}
+
+.button--reset {
+  background-color: var(--color-secondary);
+}
