@@ -1,34 +1,14 @@
 import './05.css';
 import intro from './assets/intro.jpeg';
 
-/*
-  Ejercicio 05 ♿️
-  1. Inspecciona el arbol de accesibilidad, qué elementos son
-    relevantes para apoyar la asistencia? 🟣
-  2. Reemplaza los elementos genericos por unos semanticos como h1, form y label. 🟡
-  3. Conecta los labels con los input usando el atributo htmlFor. 🟡
-  4. Inspecciona una vez más el arbol de accesibilidad, puedes reconocer los cambios? 🟣
-
-
-  Credito extra 01 👑 :
-  Agrupa los radio buttons en un solo fieldset, adicionalmente usa un elemento de leyenda (legend)
-  para relacionar los inputs y que sean tratados como un grupo semantico.
-
-  Credito extra 02 👑 :
-  Al encontrar un error, las validaciones están cambiando el color de borde de los inputs,
-  esto es un problema para los usuarios que modifican el contraste de colores (haz el intento).
-
-  En vez de responder a los errores con cambios de colores, presentale al usuario contenido semantico
-  que explique el error. Debajo de cada input crea un parrafo con la clase "error" y el error especifico
-  para ese campo.
-*/
-
 function RegisterForm() {
   return (
     <>
-      <span className="title">Registrate</span>
-      <div className="form">
-        <span className="label">Correo:</span>
+      <h1 className="title">Registrate</h1>
+      <form className="form" onSubmit={(evt) => evt.preventDefault()}>
+        <label htmlFor="email" className="label">
+          Correo:
+        </label>
         <input
           id="email"
           type="email"
@@ -36,7 +16,10 @@ function RegisterForm() {
           className="text-input"
           placeholder=" "
         />
-        <span className="label">Contraseña:</span>
+        <p className="error">Correo invalido</p>
+        <label htmlFor="password" className="label">
+          Contraseña:
+        </label>
         <input
           id="password"
           type="password"
@@ -45,6 +28,7 @@ function RegisterForm() {
           placeholder=" "
           pattern="^.{6,}"
         />
+        <p className="error">Contraseña invalida</p>
         <div className="fieldset">
           <p className="label">Consola preferida:</p>
           <div className="field">
@@ -56,7 +40,7 @@ function RegisterForm() {
               className="radio-input"
               defaultChecked
             />
-            <span>PC</span>
+            <label htmlFor="pc">PC</label>
           </div>
           <div className="field">
             <input
@@ -66,7 +50,7 @@ function RegisterForm() {
               type="radio"
               className="radio-input"
             />
-            <span>Play Station</span>
+            <label htmlFor="ps4">Play Station</label>
           </div>
           <div className="field">
             <input
@@ -76,13 +60,13 @@ function RegisterForm() {
               type="radio"
               className="radio-input"
             />
-            <span>Xbox</span>
+            <label htmlFor="xbox">Xbox</label>
           </div>
         </div>
         <button className="button" type="submit">
           Enviar
         </button>
-      </div>
+      </form>
     </>
   );
 }

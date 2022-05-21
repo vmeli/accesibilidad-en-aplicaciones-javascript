@@ -21,12 +21,14 @@
 }
 
 .title {
-  font-size: 8rem;
+  font-size: var(--font-xxl);
+  font-weight: var(--font-bold);
+  color: var(--color-primary);
   margin: 32px 0;
 }
 
 .form {
-  width: 60%;
+  width: 75%;
   display: flex;
   flex-flow: column;
   align-items: flex-start;
@@ -35,11 +37,15 @@
 
 .label {
   font-weight: var(--font-bold);
-  font-size: var(--font-l);
+  font-size: var(--font-m);
   color: var(--color-secondary);
 }
 
-.input {
+.fieldset {
+  border: none;
+}
+
+.text-input {
   border-radius: 8px;
   padding: 12px;
   font-size: var(--font-s);
@@ -48,41 +54,41 @@
   border: 2px solid var(--color-neutral);
 }
 
-.input:invalid {
-  border: 2px solid red;
+.text-input:not(:placeholder-shown):invalid {
+  outline: 2px solid red;
 }
 
-.input:invalid + .error {
+.text-input:not(:placeholder-shown):invalid  + .error {
   visibility: visible;
 }
 
 .error {
-  font-size: var(--font-m);
+  font-size: var(--font-s);
   font-weight: bold;
   visibility: hidden;
   color: red;
 }
 
-
-
-
-.actions {
-  margin: 32px 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
 .button {
   background-color: var(--color-primary);
   color: var(--color-background);
-  font-size: var(--font-l);
+  font-size: var(--font-m);
   padding: 4px 0;
   border-radius: 8px;
-  width: calc(95% / 2);
-  font-weight: bold;
+  font-weight: var(--font-bold);
+  width: 100%;
 }
 
-.button--reset {
-  background-color: var(--color-secondary);
+.field {
+  display: flex;
+  align-items: center;
+  gap: 0 8px;
+  margin: 16px 0;
+  font-size: var(--font-s);
 }
+
+.radio-input {
+  width: 20px;
+  height: 20px;
+}
+
