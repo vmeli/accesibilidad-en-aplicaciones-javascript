@@ -1,35 +1,34 @@
 import './02.css';
-import ghost from './assets/ghost.png';
 
 /*
-  1. Abre el navegador y usa el narrador de vo
-    intentando la forma de navegar entre secciones. 🟣
-  2. Usa etiquetas semanticas como nav, main, footer,
-    header y article. 🟡
-  3. Utiiza de nuevo el narrador de voz e identifica los
-    beneficios de usar estas nuevas etiquetas. 🟣
-*/
+  Ejercicio 02 ♿️
+  1. Inspecciona nuestro sitio visualizando el arbol de accesibilidad,
+    identifica que elementos son reconocidos por el navegador. 🟣
+  2. Reemplaza las etiquetas genericas por etiquetas más semanticas
+    como main, header, footer, nav. 🟡
+  3. Usando una vez más el inspector, identifica el impacto de reemplazar
+    etiquetas semanticas. 🟣
+  4. Aprende a moverte rapidamente a través de los puntos de referencia
+    del sitio usando el narrador de voz. 🟣
 
+  
+  Credito extra 👑 : Convirtiendo regiones genericas en landmarks
+  Imagina que estás mejorando la accesibilidad de las regiones, pero no puedes cambiar las etiquetas HTML.
+  La propiedad role puede usarse para asignar los roles que las etiquetas semanticas traen por defecto,
+  echale un vistazo al arbol de accesibilidad en tu solución inicial y ahora usando solo divs intenta llegar al mismo resultado
+*/
 function App() {
   return (
     <>
-      <div className="header">
-        <p>A</p>
+      <div className="bar">
+        <h1 className="bar__title">SnackOverflow 🍿</h1>
       </div>
-      <div className="navigation">
-        <p>B</p>
-      </div>
+      <div className="menu">A</div>
       <div className="content">
-        <div className="article article--b">
-          <img className="emoji" src={ghost} />
-        </div>
-        <div className="article article--c">
-          <p>C</p>
-        </div>
+        <div className="panel panel--a">B</div>
+        <div className="panel panel--b">C</div>
       </div>
-      <div className="footer">
-        <p>D</p>
-      </div>
+      <div className="info">D</div>
     </>
   );
 }

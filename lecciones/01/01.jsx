@@ -1,7 +1,7 @@
 import './01.css';
 
 /* 
-  Ejercicio 01 💻
+  Ejercicio 01 ♿️
   1. Apoyate en etiquetas más semanticas como main, section, article 🟡
   2. Usa etiquetas de titulo, definiendo una y solo una etiqueta h1 🟡
   3. Reemplaza la pseudo listas y los pseudo items con etiquetas como ul y li 🟡
