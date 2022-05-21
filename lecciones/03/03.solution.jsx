@@ -1,25 +1,6 @@
 import './03.css';
 import * as React from 'react';
 
-/*
-  Ejercicio 03 ♿️
-  1. Intenta usar el marcador del telefono sin usar tu mouse, fue posible? 🟣
-  2. Reemplaza los pseudo botones con etiquetas <button /> reales. 🟡
-  3. Reemplaza el pseudo link por una etiqueta <a /> real y su respectivo atributo href. 🟡
-  4. Elimina el código adicional (handleLinkClick) que tuvimos que crear
-    para hacer funcionar nuestro pseudo link. 🔴
-
-  Credito extra 01 👑 : Deshabilitando el enfoque a proposito
-  Desde el area de UX, nos han sugerido que no permitamos que se enfoquen las teclas de * o #.
-  Como podemos desactivar el enfoque unicamente de estos dos controles?
-
-  Credito extra 02 👑 : Habilitando el foco en elementos genericos
-  Producción está roto 🚨 y es porque cambiamos las etiquetas,
-  ahora tenemos que volver a las etiquetas genericas y al mismo tiempo
-  permitir que sean enfocables y accionables. Recuerda que los elementos genericos
-  no habilitan el evento de click como si lo hacen los controles, debes asegurarte
-  de que solo al presionar las teclas enter (13) y space (32) la acción ocurra
-*/
 function KeyPad() {
   const [keys, setKeys] = React.useState('');
   const options = [
@@ -46,11 +27,11 @@ function KeyPad() {
     setKeys('');
   }
 
-  function handleLinkClick() {
-    window.open(
-      'https://es.wikipedia.org/wiki/Anexo:Prefijos_telef%C3%B3nicos_mundiales'
-    );
-  }
+  // function handleLinkClick() {
+  //   window.open(
+  //     'https://es.wikipedia.org/wiki/Anexo:Prefijos_telef%C3%B3nicos_mundiales'
+  //   );
+  // }
 
   return (
     <div className="keypad">
@@ -60,27 +41,31 @@ function KeyPad() {
       </div>
       <div className="keypad__buttons">
         {options.map((key) => (
-          <div
+          <button
             key={key}
             className="keypad__button"
             onClick={handleKeyClick}
           >
             {key}
-          </div>
+          </button>
         ))}
       </div>
-      <div
+      <button
         className="keypad__button keypad__button--reset"
         onClick={handleReset}
       >
         Limpiar
-      </div>
+      </button>
       <p className="indicatives">
         Si no conoces el indicativo de tu pais, puedes encontrarlo
         visitando esta{' '}
-        <span className="indicatives__link" onClick={handleLinkClick}>
+        <a
+          className="indicatives__link"
+          href="https://es.wikipedia.org/wiki/Anexo:Prefijos_telef%C3%B3nicos_mundiales"
+          //  onClick={handleLinkClick}
+        >
           lista de indicativos de paises
-        </span>
+        </a>
       </p>
     </div>
   );

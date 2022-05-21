@@ -1,78 +1,114 @@
 import './03.css';
 import * as React from 'react';
 
-const keys = [
-  '1',
-  '2',
-  '3',
-  '4',
-  '5',
-  '6',
-  '7',
-  '8',
-  '9',
-  '*',
-  '0',
-  '#',
-];
+function KeyPad() {
+  const [keys, setKeys] = React.useState('');
+  const options = [
+    '1',
+    '2',
+    '3',
+    '4',
+    '5',
+    '6',
+    '7',
+    '8',
+    '9',
+    '*',
+    '0',
+    '#',
+  ];
 
-/*
-  1. Usa la propiedad tabIndex para establecer el enfoque en aquellos elementos que necesitan ser enfocados. 🟡
-  2. No olvides validar que los pseudo controles puedan ser usados con el teclado. 🟣
-  3. Habilita el uso de los controles mediante la tecla [SPACE], como funciona en los controles reales. 🟡
-*/
+  function handleKeyClick(evt) {
+    /* 
+      Si el evento es de tipo keydown
+      solo debemos aceptar cuando se presiona enter o space
+    */
+    const isValidKeyDown =
+      evt.type === 'keydown' &&
+      (evt.keyCode === 13 || evt.keyCode === 32);
 
-function App() {
-  const [number, setNumber] = React.useState('');
-
-  function handleClick(evt) {
-    if (evt.type === 'keydown' && evt.keyCode !== 32) return;
-    const touchedNumber = evt.target.innerHTML;
-    setNumber(`${number}${touchedNumber}`);
+    if (!isValidKeyDown) return;
+    const touchedKey = evt.target.innerHTML;
+    setKeys(`${keys}${touchedKey}`);
   }
 
-  function handleReset() {
-    if (evt.type === 'keydown' && evt.keyCode !== 32) return;
-    setNumber('');
+  function handleReset(evt) {
+    const isValidKeyDown =
+      evt.type === 'keydown' &&
+      (evt.keyCode === 13 || evt.keyCode === 32);
+
+    if (!isValidKeyDown) return;
+    setKeys('');
+  }
+
+  function handleLinkClick(evt) {
+    const isValidKeyDown =
+      evt.type === 'keydown' &&
+      (evt.keyCode === 13 || evt.keyCode === 32);
+
+    if (!isValidKeyDown) return;
+    window.open(
+      'https://es.wikipedia.org/wiki/Anexo:Prefijos_telef%C3%B3nicos_mundiales'
+    );
   }
 
   return (
-    <main className="content">
-      <h1 className="title">¡Llamanos! ☎️</h1>
-      <section className="screen">
-        <p className="screen__text">{number}</p>
-      </section>
-      <div className="buttons">
-        {keys.map((number) => (
+    <div className="keypad">
+      <h1 className="keypad__title">¡Llamanos!</h1>
+      <div className="keypad__screen">
+        <p className="keypad__screen-text">{keys}</p>
+      </div>
+      <div className="keypad__buttons">
+        {options.map((key) => (
           <div
-            tabIndex={0}
-            key={number}
-            className="button"
-            onClick={handleClick}
-            onKeyDown={handleClick}
+            key={key}
+            className="keypad__button"
+            onClick={handleKeyClick}
+            onKeyDown={handleKeyClick}
+            tabIndex={key === '#' || key === '*' ? -1 : 0}
           >
-            {number}
+            {key}
           </div>
         ))}
       </div>
       <div
-        tabIndex={0}
-        className="button button--reset"
+        className="keypad__button keypad__button--reset"
         onClick={handleReset}
         onKeyDown={handleReset}
+        tabIndex={0}
       >
         Limpiar
       </div>
       <p className="indicatives">
         Si no conoces el indicativo de tu pais, puedes encontrarlo
-        viendo esta{' '}
-        <a
-          href="https://es.wikipedia.org/wiki/Anexo:Prefijos_telef%C3%B3nicos_mundiales"
-          target="_blank"
+        visitando esta{' '}
+        <span
+          className="indicatives__link"
+          // href="https://es.wikipedia.org/wiki/Anexo:Prefijos_telef%C3%B3nicos_mundiales"
+          onClick={handleLinkClick}
+          onKeyDown={handleLinkClick}
+          tabIndex={0}
         >
           lista de indicativos de paises
-        </a>
+        </span>
       </p>
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <main className="content">
+      <section className="content__section content__section--pic">
+        <img
+          className="pic"
+          src="https://images.pexels.com/photos/4240498/pexels-photo-4240498.jpeg"
+          alt=""
+        />
+      </section>
+      <section className="content__section content__section--keypad">
+        <KeyPad />
+      </section>
     </main>
   );
 }
