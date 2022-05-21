@@ -1,12 +1,12 @@
 
 .article {
-  max-width: 768px;
+  max-width: 1024px;
   margin: 0 auto;
   display: flex;
   flex-flow: column;
   justify-content: center;
   min-height: 100vh;
-  padding: 120px 32px;
+  padding: 100px 0;
 }
 
 .title {
@@ -35,7 +35,19 @@
   margin: 0 24px;
 }
 
-.list-item {
+.list__item {
   font-size: var(--font-m);
   margin: 16px 0;
+  gap: 0 16px;
+  display: flex;
+  align-items: center;
+}
+
+.list__item:before {
+  content: ''; 
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: var(--color-text);
+  border-radius: 50%;
 }
