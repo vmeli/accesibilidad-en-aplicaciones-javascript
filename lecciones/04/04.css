@@ -40,6 +40,8 @@
   position: relative;
   padding: 200px 0;
   overflow-x: hidden;
+  display: flex;
+  align-items: center;
 }
 
 .preview__decoration {
@@ -61,7 +63,7 @@
 }
 
 .preview__description {
-  font-size: var(--font-l);
+  font-size: var(--font-m);
   color: var(--color-background);
   margin: 24px 0;
 }

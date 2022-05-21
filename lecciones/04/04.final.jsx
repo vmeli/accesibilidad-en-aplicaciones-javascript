@@ -47,7 +47,7 @@ function App() {
   return (
     <main className="content">
       <section className="gallery">
-        <h1 className="gallery__title">La casa de tus sueños 🤩</h1>
+        <h1 className="gallery__title">Nuevas casas 🤩</h1>
         <ul className="gallery__list">
           {pics.map((pic, index) => (
             <li
