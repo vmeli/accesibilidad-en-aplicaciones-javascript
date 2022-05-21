@@ -1,8 +1,8 @@
 {
-  "name": "accesibilidad-en-aplicaciones-react",
+  "name": "accesibilidad-en-aplicaciones-javascript",
   "author": "Mateo Garcia @teo-garcia",
   "version": "1.0.0",
-  "description": "La guia definitiva para construir aplicaciones React accesibles",
+  "description": "La guia definitiva para construir aplicaciones Javascript accesibles",
   "main": "index.js",
   "scripts": {
     "start": "node lib/runner.js"
@@ -21,8 +21,5 @@
     "chalk": "^4.1.2",
     "cross-spawn": "^7.0.3",
     "inquirer": "^8.2.4"
-  },
-  "dependencies": {
-    "use-sound": "^4.0.1"
   }
 }
