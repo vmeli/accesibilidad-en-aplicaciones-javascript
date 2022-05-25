@@ -1,8 +1,6 @@
 import * as React from 'react';
 import pic from './assets/pic.jpeg';
-import './06.css';
-// import './06.solution.css';
-// import './06.extra.01.css';
+import './06.solution.css';
 
 function ThemeToggler(props) {
   const { theme, onClick } = props;
@@ -57,6 +55,7 @@ function App() {
         </p>
         <img
           src={pic}
+          alt=""
           className="content__pic"
           alt="Vaso con agua encima de una mesa"
         />

@@ -1,32 +1,15 @@
 :root {
-  --color-text: #808080;
+  --color-text: #212121;
   --color-background: #FAFAFA;
-  --color-primary: #63ced4;
-  --color-secondary: #6eb4c3;
+  --color-primary: #9c27b0;
+  --color-secondary: #ba68c8;
 }
 
 .theme-light {
-  /* 
-    Ejercicio 06 ♿️
-    1. Inspecciona los elementos de nuestro blog e identifica
-      los problemas de contraste en ellos. 🟣
-    2. Define tu propia sistema de colores usando una herramienta
-      de medición como https://accessible-colors.com/ o https://webaim.org/resources/contrastchecker/. 🟢
-    3. Opcionalmente puedes escoger unos desde este generador
-      de colores accesibles en http://colorsafe.co/. 🟢
-    
-
-    Credito extra 01 👑 : Definiendo un tema oscuro accesible
-    
-    Usando el selector .theme-dark, reasigna las variables con colores accesibles
-    para un background oscuro y un foreground brillante, puede que los valores que escogiste
-    para el primer ejercicio te sirvan, asi como puede que no, inspecciona con el contrast checker
-    si cambiando los valores de --color-text y --color-background es suficiente.
-  */
-
   background-color: var(--color-background);
   color: var(--color-text);
 }
+
 
 .toggler {
   background-color: var(--color-secondary);
