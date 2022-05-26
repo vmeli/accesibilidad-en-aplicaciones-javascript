@@ -1,12 +1,5 @@
 import './02.css';
-import ghost from './assets/ghost.png';
 
-/*
-  Credito extra 👑 : Convirtiendo regiones genericas en landmarks
-  Imagina que estás mejorando la accesibilidad de las regiones, pero no puedes cambiar las etiquetas HTML.
-  La propiedad role puede usarse para asignar los roles que las etiquetas semanticas traen por defecto,
-  echale un vistazo al arbol de accesibilidad en tu solución inicial y ahora usando solo divs intenta llegar al mismo resultado
-*/
 function App() {
   return (
     <>

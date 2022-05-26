@@ -2,20 +2,20 @@ import './02.css';
 
 /*
   Ejercicio 02 ♿️
-  1. Inspecciona nuestro sitio visualizando el arbol de accesibilidad,
+  1. Inspecciona nuestro sitio visualizando el árbol de accesibilidad,
     identifica que elementos son reconocidos por el navegador. 🟣
-  2. Reemplaza las etiquetas genericas por etiquetas más semanticas
+  2. Reemplaza las etiquetas genéricas por etiquetas más semánticas
     como main, header, footer, nav. 🟡
   3. Usando una vez más el inspector, identifica el impacto de reemplazar
-    etiquetas semanticas. 🟣
-  4. Aprende a moverte rapidamente a través de los puntos de referencia
+    etiquetas semánticas. 🟣
+  4. Aprende a moverte rápidamente a través de los puntos de referencia
     del sitio usando el narrador de voz. 🟣
 
   
-  Credito extra 01 👑 : Convirtiendo regiones genericas en landmarks
+  Crédito extra 01 👑 : Convirtiendo regiones genéricas en landmarks
   Imagina que estás mejorando la accesibilidad de las regiones, pero no puedes cambiar las etiquetas HTML.
-  La propiedad role puede usarse para asignar los roles que las etiquetas semanticas traen por defecto,
-  echale un vistazo al arbol de accesibilidad en tu solución inicial y ahora usando solo divs intenta llegar al mismo resultado
+  La propiedad role puede usarse para asignar los roles que las etiquetas semánticas traen por defecto,
+  échale un vistazo al árbol de accesibilidad en tu solución inicial y ahora usando solo divs intenta llegar al mismo resultado
 */
 function App() {
   return (

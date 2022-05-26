@@ -30,7 +30,7 @@ Labore commodo nostrud anim sint Lorem ut. Aliqua proident non ea cupidatat fugi
 Excepteur proident adipisicing sunt occaecat proident aute elit ex amet excepteur proident. Nulla aliqua velit magna ullamco dolore tempor sit nulla. Et Lorem labore elit voluptate ullamco ex Lorem. Laboris aute ullamco labore voluptate. Esse ex adipisicing id magna officia. Reprehenderit labore est consequat amet Lorem non cillum.
 
 
-## Hagamoslo en código 💪
+## Pongámoslo a prueba 💪
 
 ### Objetivos 🎯
 - Magna consequat laboris qui sint ad nisi consectetur.

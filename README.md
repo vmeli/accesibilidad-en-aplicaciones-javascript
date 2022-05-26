@@ -1,14 +1,14 @@
-# Accesiblidad en aplicaciones Javascript ♿️ 💻
+# Accesibilidad en aplicaciones Javascript ♿️ 💻
 
 ![Banner titulado accesibilidad en aplicaciones Javascript](./assets/banner.svg)
 
 ## Bienvenido a un nuevo workshop de Escuela Frontend 👋.
 
-El objetivo de este workshop es proporcionar las herramientes fundamentales para aprender a crear aplicaciones web accesibles. Este repositorio está compuesto de 14 lecciones con ejercicios practicos que te ayudarán a afianzar los conocimientos viatos en cada módulo.
+El objetivo de este workshop es proporcionar las herramientas fundamentales para aprender a crear aplicaciones web accesibles. Este repositorio está compuesto de 14 lecciones con ejercicios prácticos que te ayudarán a afianzar los conocimientos vistos en cada módulo.
 
-No pierdas la oportunidad de aprender uno de los skills más solicitados en la industria web y sumate a esta experiencia 💪.
+No pierdas la oportunidad de aprender uno de los skills más solicitados en la industria web y súmate a esta experiencia 💪.
 
-## Prerequisitos
+## Prerrequisitos
 
 - [Conocimientos básicos de Desarrollo Web](https://blog.teo-garcia.dev/que-demonios-es-desarrollo-web)
 - [Conocimientos básicos de React](https://www.escuelafrontend.com/cursos/curso-practico-de-react)
@@ -27,7 +27,7 @@ Puedes hacer un checkeo básico de estas herramientas usando la terminal:
   echo "\n\nVSCode version:" && code --version
 ```
 
-## Instalacion
+## Instalación
 
 1. Clona el repositorio ejecutando el siguiente comando:
 
@@ -46,7 +46,7 @@ Puedes hacer un checkeo básico de estas herramientas usando la terminal:
   code .
 ```
 
-4. Dale un vistazo a la [distribucion del workshop](#distribución-del-workshop) y preparate para aprender sobre accesibilidad web 🤘.
+4. Dale un vistazo a la [distribución del workshop](#distribución-del-workshop) y prepárate para aprender sobre accesibilidad web 🤘.
 
 ## Distribución del workshop
 
@@ -55,7 +55,7 @@ Este workshop esta dividido en 14 lecciones, cada una de ellas contiene un peque
 - `NUMERO.md`: El contenido de la lección, snippets de código de ejemplo, metas y descripción del reto a desarrollar.
 - `NUMERO.jsx`: El componente donde está ubicado el reto. Sigue las pistas que te susurran los emojis para solucionar el reto.
 - `NUMERO.solution.jsx`: El componente con la solución del reto.
-- `NUMERO.extra.NUMERO.jsx`: El componente con la solución del credito extra. Intenta no ver ninguno de estos dos archivo hasta que hayas terminado o no tengas idea de como continuar.
+- `NUMERO.extra.NUMERO.jsx`: El componente con la solución del crédito extra. Intenta no ver ninguno de estos dos archivo hasta que hayas terminado o no tengas idea de como continuar.
 - `NUMERO.css`: Los estilos asociados a `NUMERO.jsx`. Solo debes usarlos cuando el reto este relacionado con CSS accesible.
 
 ## Sigue las pistas 🟣 🟡 🟢 🔴
@@ -83,4 +83,4 @@ Mi nombre es Mateo Garcia, soy un Frontend Developer establecido en Medellin, Co
 
 - [Github](https://github.com/teo-garcia)
 
-- [Linkedin](https://www.linkedin.com/in/teogarcia0)
+- [LinkedIn](https://www.linkedin.com/in/teogarcia0)
