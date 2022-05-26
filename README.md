@@ -1,10 +1,10 @@
-# Accesiblidad en aplicaciones React ⚛️ ♿️
+# Accesiblidad en aplicaciones Javascript ♿️ 💻
 
-![Aprende a construir aplicaciones web accesibles](https://via.placeholder.com/1200x600/000/FFF)
+![Banner titulado accesibilidad en aplicaciones Javascript](./assets/banner.svg)
 
-Bienvenido a un nuevo workshop de Escuela Frontend 👋.
+## Bienvenido a un nuevo workshop de Escuela Frontend 👋.
 
-El objetivo de este workshop es proporcionar las herramientes fundamentales para aprender a crear aplicaciones web usando React JS de manera accesible. Este repositorio está compuesto de 14 lecciones con ejercicios practicos que te ayudarán a afianzar los conocimientos viatos en cada módulo.
+El objetivo de este workshop es proporcionar las herramientes fundamentales para aprender a crear aplicaciones web accesibles. Este repositorio está compuesto de 14 lecciones con ejercicios practicos que te ayudarán a afianzar los conocimientos viatos en cada módulo.
 
 No pierdas la oportunidad de aprender uno de los skills más solicitados en la industria web y sumate a esta experiencia 💪.
 
@@ -32,12 +32,12 @@ Puedes hacer un checkeo básico de estas herramientas usando la terminal:
 1. Clona el repositorio ejecutando el siguiente comando:
 
   ```bash
-    git clone https://github.com/teo-garcia/accesibilidad-en-aplicaciones-react.git
+    git clone https://github.com/escuela-frontend/accesibilidad-en-aplicaciones-javascript
   ```
 2. Instala el proyecto usando el siguiente comando:
 
   ```bash
-    cd accesibilidad-en-aplicaciones-react && npm i
+    cd accesibilidad-en-aplicaciones-javascript && npm i
   ```
 
 3. Abre el repositorio haciendo uso de VSCode:
@@ -50,23 +50,25 @@ Puedes hacer un checkeo básico de estas herramientas usando la terminal:
 
 ## Distribución del workshop
 
-Este workshop esta dividido en 14 lecciones, cada una de ella es un pequeño proyecto de React en el que encontraras:
+Este workshop esta dividido en 14 lecciones, cada una de ellas contiene un pequeño proyecto de React en el que encontraras:
 
 - `NUMERO.md`: El contenido de la lección, snippets de código de ejemplo, metas y descripción del reto a desarrollar.
-- `NUMERO.jsx`: El componente de React donde está ubicado el reto. Sigue las pistas que te susurran los emojis para solucionar el reto.
-- `NUMERO.solution.jsx`: El componente de React con la solución final del reto. Intenta no ver este archivo hasta que hayas terminado o no tengas idea de como continuar.
+- `NUMERO.jsx`: El componente donde está ubicado el reto. Sigue las pistas que te susurran los emojis para solucionar el reto.
+- `NUMERO.solution.jsx`: El componente con la solución del reto.
+- `NUMERO.extra.NUMERO.jsx`: El componente con la solución del credito extra. Intenta no ver ninguno de estos dos archivo hasta que hayas terminado o no tengas idea de como continuar.
 - `NUMERO.css`: Los estilos asociados a `NUMERO.jsx`. Solo debes usarlos cuando el reto este relacionado con CSS accesible.
 
-## Sigue las pistas 🟡 🟣 🔴
+## Sigue las pistas 🟣 🟡 🟢 🔴
 
 En cada reto encontrarás pistas y sugerencias que nuestros amigos han dejado para ayudarte a solucionar cada uno de los problemas. Identifica a tus amigos y entiende cual es su función en este workshop:
 
 
-| **Emoji** | **Descripción**                                                        |
+| **Color** | **Descripción**|
 |:---------:|----------------------------------------------------------------------|
-| 🟡 | Qui minim enim aliquip dolor ex aute laboris sit exercitation deserunt |
-| 🟣 | Qui minim enim aliquip dolor ex aute laboris sit exercitation deserunt |
-| 🔴 | Qui minim enim aliquip dolor ex aute laboris sit exercitation deserunt |
+| 🟣 | Inspecciona usando herramientas de desarrollo y/o tu intuición |
+| 🟡 | Modifica los elementos mencionados |
+| 🟢 | Agrega código que siga las sugerencias |
+| 🔴 | Elimina el código que esta causando el problema|
 
 ## Acerca de mi 👋
 

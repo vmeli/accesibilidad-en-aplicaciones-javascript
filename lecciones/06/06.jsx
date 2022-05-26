@@ -61,6 +61,12 @@ function App() {
           alt="Vaso con agua encima de una mesa"
         />
         <p className="content__info">
+          Foto por Pixabay de{' '}
+          <a href="https://www.pexels.com/photo/clean-clear-cold-drink-416528/">
+            Pexels
+          </a>
+        </p>
+        <p className="content__info">
           No hay un consenso universal sobre la cantidad de agua que
           debe consumirse al día, ya que las necesidades particulares
           varían, pero existe cierto acuerdo sobre cuánto es una
