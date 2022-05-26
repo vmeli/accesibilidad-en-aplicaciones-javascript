@@ -1,0 +1,25 @@
+article {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 72px 0;
+}
+
+article img {
+  margin: 32px 0;
+}
+
+article h1 {
+  font-size: 7rem;
+  font-weight: var(--font-bold);
+  color: var(--color-primary)
+}
+
+article p {
+  font-size: 2rem;
+  margin: 32px 0;
+}
+
+article li {
+  font-size: 2rem;
+  margin-bottom: 28px;
+}
