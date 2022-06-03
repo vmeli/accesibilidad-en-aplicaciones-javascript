@@ -1,0 +1,106 @@
+/*
+  Ejercicio 08 ♿️
+
+  1. Navega por este mini sitio usando solo el teclado, reflexiona sobre
+  los problemas que tiene reconocer en que campo te encuentras ubicado. 🟣
+
+  2. Dentro de este archivo, elimina las propiedades que están causando este problema
+  en la navegación del sitio. 🔴
+
+  Credito extra 01 👑 : Garantizando el contraste de color
+  Ahora que nuestra sitio cuenta con un indicador de foco el siguiente paso
+  es preguntarnos si este indicador cumple con los requerimientos de la WCAG.
+
+  Si la respuesta es no, nuestro deber es garantizar que la relación de contraste
+  entre el `outline-color` y el `background-color` de los elementos adyacentes sea
+  minimamente de 3:1.
+
+  Puedes apoyarte en herramientas como https://webaim.org/resources/contrastchecker/ y https://coolors.co/ para este ejercicio
+*/
+
+.content {
+  display: flex;
+  height: 100%;
+}
+
+.background, .rate {
+  width: 50%;
+}
+
+.background__pic {
+  height: 100%;
+  object-fit: cover;
+}
+
+.rate {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  background-color: var(--color-background);
+}
+
+.content__title {
+  font-size: var(--font-l);
+  text-align: center;
+}
+
+.content__form {
+  display: flex;
+  flex-flow: column;
+  gap: 32px 0;
+  margin: 32px auto;
+  max-width: 500px;
+  width: 100%;
+}
+
+.content__label {
+  color: var(--color-primary);
+  font-size: var(--font-m);
+  font-weight: var(--font-bold);
+}
+
+.content__text-input {
+  background-color: var(--color-background);
+  border-radius: 8px;
+  border: 2px solid var(--color-neutral);
+  display: block;
+  font-weight: var(--font-regular);
+  margin: 8px 0 0;
+  outline: none;
+  padding: 8px 8px;
+  width: 100%;
+}
+
+.content__radio-input {
+  height: 20px;
+  outline: none;
+  width: 20px;
+}
+
+.content__radio-label {
+  color: var(--color-primary);
+  font-size: var(--font-m);
+  font-weight: var(--font-bold);
+  margin-left: 8px;
+  margin-right: 16px;
+}
+
+.content__fieldset {
+  align-items: center;
+  border: none;
+  display: flex;
+  gap: 0 4px;
+}
+
+.content__button {
+  background-color: var(--color-primary);
+  border-radius: 8px;
+  color: var(--color-background);
+  display: inline-block;
+  font-size: var(--font-m);
+  font-weight: var(--font-bold);
+  margin-left: auto;
+  padding: 8px 64px;
+  outline: none;
+}
