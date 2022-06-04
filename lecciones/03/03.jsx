@@ -3,20 +3,20 @@ import * as React from 'react';
 
 /*
   Ejercicio 03 ♿️
-  1. Intenta usar el marcador del telefono sin usar tu mouse, fue posible? 🟣
+  1. Intenta usar el marcador del teléfono sin usar tu mouse, fue posible? 🟣
   2. Reemplaza los pseudo botones con etiquetas <button /> reales. 🟡
   3. Reemplaza el pseudo link por una etiqueta <a /> real y su respectivo atributo href. 🟡
   4. Elimina el código adicional (handleLinkClick) que tuvimos que crear
     para hacer funcionar nuestro pseudo link. 🔴
 
-  Credito extra 01 👑 : Deshabilitando el enfoque a proposito
+  Crédito extra 01 👑 : Deshabilitando el enfoque a propósito
   Desde el area de UX, nos han sugerido que no permitamos que se enfoquen las teclas de * o #.
   Como podemos desactivar el enfoque unicamente de estos dos controles?
 
-  Credito extra 02 👑 : Habilitando el foco en elementos genericos
+  Crédito extra 02 👑 : Habilitando el foco en elementos genéricos
   Producción está roto 🚨 y es porque cambiamos las etiquetas,
-  ahora tenemos que volver a las etiquetas genericas y al mismo tiempo
-  permitir que sean enfocables y accionables. Recuerda que los elementos genericos
+  ahora tenemos que volver a las etiquetas genéricas y al mismo tiempo
+  permitir que sean enfocables y accionables. Recuerda que los elementos genéricos
   no habilitan el evento de click como si lo hacen los controles, debes asegurarte
   de que solo al presionar las teclas enter (13) y space (32) la acción ocurra
 */
@@ -54,7 +54,7 @@ function KeyPad() {
 
   return (
     <div className="keypad">
-      <h1 className="keypad__title">¡Llamanos!</h1>
+      <h1 className="keypad__title">¡Llámanos!</h1>
       <div className="keypad__screen">
         <p className="keypad__screen-text">{keys}</p>
       </div>
@@ -79,7 +79,7 @@ function KeyPad() {
         Si no conoces el indicativo de tu pais, puedes encontrarlo
         visitando esta{' '}
         <span className="indicatives__link" onClick={handleLinkClick}>
-          lista de indicativos de paises
+          lista de indicativos de países
         </span>
       </p>
     </div>
