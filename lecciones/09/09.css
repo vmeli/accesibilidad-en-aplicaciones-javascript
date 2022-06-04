@@ -1,0 +1,75 @@
+/*
+  Ejercicio 09 ♿️
+  1. Inspecciona este componente haciendo uso del narrador de voz,
+    identifica el contenido disponible usando el approach actual. 🟣
+  2. Deshazte de la propiedad visibility, la cual desaparece el contenido
+    escondido de los narradores de voz. 🔴
+  3. En su reemplazo, utiliza la propiedad z-index con un valor de 1
+    para la clase .panels__item--active. 🟢
+  4. Finalmente, inspecciona una vez más con el narrador de voz e identifica
+  las ventajas de aparecer y desaparecer elementos de esta forma. 🟣
+*/
+main {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  gap: 32px 0;
+  height: 100%;
+  justify-content: center;
+}
+
+h1 {
+  font-size: var(--font-l);
+  width: 600px;
+  text-align: center;
+}
+
+.panels {
+  height: 300px;
+  position: relative;
+  width: 600px;
+}
+
+.panels__item {
+  font-size: var(--font-xxl);
+  align-items: center;
+  background-color: var(--color-text);
+  border-radius: 8px;
+  color: var(--color-background);
+  display: flex;
+  font-weight: var(--font-bold);
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  padding: 16px;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  width: 100%;
+}
+
+.panels__item--active {
+  visibility: visible;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 0 48px
+}
+
+.controls__item button {
+  cursor: pointer;
+  font-size: var(--font-s);
+  background-color: var(--color-secondary);
+  color: var(--color-background);
+  font-weight: var(--font-bold);
+  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

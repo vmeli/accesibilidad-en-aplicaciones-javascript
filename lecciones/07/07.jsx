@@ -3,6 +3,9 @@ import './07.css';
 // import './07.solution.css';
 // import './07.extra.01.css';
 
+/* 
+  Tu ejercicio está ubicado en el archivo 07.css 🤠
+*/
 function App() {
   return (
     <>

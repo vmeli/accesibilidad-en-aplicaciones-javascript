@@ -14,6 +14,9 @@ function ThemeToggler(props) {
   );
 }
 
+/* 
+  Tu ejercicio está ubicado en el archivo 06.css 🤠
+*/
 function App() {
   const [theme, setTheme] = React.useState('light');
   return (

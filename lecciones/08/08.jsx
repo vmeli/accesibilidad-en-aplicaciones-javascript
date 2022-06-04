@@ -3,6 +3,9 @@ import './08.css';
 // import './08.extra.01.css';
 import backgroundPic from './assets/background.jpeg';
 
+/* 
+  Tu ejercicio está ubicado en el archivo 08.css 🤠
+*/
 function App() {
   return (
     <main className="content">
