@@ -9,11 +9,11 @@ import * as React from 'react';
   4. Elimina el código adicional (handleLinkClick) que tuvimos que crear
     para hacer funcionar nuestro pseudo link. 🔴
 
-  Crédito extra 01 👑 : Deshabilitando el enfoque a propósito
+  Crédito Extra 01 👑 : Deshabilitando el enfoque a propósito
   Desde el area de UX, nos han sugerido que no permitamos que se enfoquen las teclas de * o #.
   Como podemos desactivar el enfoque unicamente de estos dos controles?
 
-  Crédito extra 02 👑 : Habilitando el foco en elementos genéricos
+  Crédito Extra 02 👑 : Habilitando el foco en elementos genéricos
   Producción está roto 🚨 y es porque cambiamos las etiquetas,
   ahora tenemos que volver a las etiquetas genéricas y al mismo tiempo
   permitir que sean enfocables y accionables. Recuerda que los elementos genéricos

@@ -10,11 +10,11 @@ import intro from './assets/intro.jpeg';
   4. Inspecciona una vez más el arbol de accesibilidad, puedes reconocer los cambios? 🟣
 
 
-  Crédito extra 01 👑 :
+  Crédito Extra 01 👑 :
   Agrupa los radio buttons en un solo fieldset, adicionalmente usa un elemento de leyenda (legend)
   para relacionar los inputs y que sean tratados como un grupo semantico.
 
-  Crédito extra 02 👑 :
+  Crédito Extra 02 👑 :
   Al encontrar un error, las validaciones están cambiando el color de borde de los inputs,
   esto es un problema para los usuarios que modifican el contraste de colores (haz el intento).
 

@@ -55,7 +55,7 @@ Este workshop esta dividido en 14 lecciones, cada una de ellas contiene un peque
 - `NUMERO.md`: El contenido de la lección, snippets de código de ejemplo, metas y descripción del reto a desarrollar.
 - `NUMERO.jsx`: El componente donde está ubicado el reto. Sigue las pistas que te susurran los emojis para solucionar el reto.
 - `NUMERO.solution.jsx`: El componente con la solución del reto.
-- `NUMERO.extra.NUMERO.jsx`: El componente con la solución del crédito extra. Intenta no ver ninguno de estos dos archivo hasta que hayas terminado o no tengas idea de como continuar.
+- `NUMERO.extra.NUMERO.jsx`: El componente con la solución del Crédito Extra. Intenta no ver ninguno de estos dos archivo hasta que hayas terminado o no tengas idea de como continuar.
 - `NUMERO.css`: Los estilos asociados a `NUMERO.jsx`. Solo debes usarlos cuando el reto este relacionado con CSS accesible.
 
 ## Sigue las pistas 🟣 🟡 🟢 🔴

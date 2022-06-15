@@ -12,7 +12,7 @@ import './02.css';
     del sitio usando el narrador de voz. 🟣
 
   
-  Crédito extra 01 👑 : Convirtiendo regiones genéricas en landmarks
+  Crédito Extra 01 👑 : Convirtiendo regiones genéricas en landmarks
   Imagina que estás mejorando la accesibilidad de las regiones, pero no puedes cambiar las etiquetas HTML.
   La propiedad role puede usarse para asignar los roles que las etiquetas semánticas traen por defecto,
   échale un vistazo al árbol de accesibilidad en tu solución inicial y ahora usando solo divs intenta llegar al mismo resultado

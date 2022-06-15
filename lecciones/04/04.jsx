@@ -12,13 +12,13 @@ import pics from './assets/pics.json';
   3. Echa una vez más un vistazo a la navegación asistida
     como un usuario discapacitado, puedes encontrar las mejoras? 🟣
 
-  Crédito extra 01 👑 : Imágenes decorativas
+  Crédito Extra 01 👑 : Imágenes decorativas
   ¿Notaste la imagen decorativa en el panel de la derecha?
   Evitemos que el usuario asistido interprete este tipo de contenido,
   verifica con el narrador de voz la diferencia entre no tener atributo alt
   y tener uno vacío.
 
-  Crédito extra 02 👑 : Texto alternativo en pagina
+  Crédito Extra 02 👑 : Texto alternativo en pagina
   Existen ocasiones en las que un texto puede describir la imagen,
   al panel de la derecha, debajo de la imagen, le agregaremos la siguiente etiqueta
 
