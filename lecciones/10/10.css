@@ -1,0 +1,118 @@
+/*
+  Ejercicio 09 ♿️
+  1. Analiza los problemas de accesibilidad que tiene este ejercicio,
+    puedes identificar los 5? 🟣
+  2. Elimina la propiedad user-scalable=no del archivo index.html
+    de esta lección. 🔴
+  3. Modifica las propiedades de tamaño de la tipografía para que
+    usen alguna unidad relativa como rem. 🟡
+  4. Aumenta el tamaño de los iconos de redes sociales del footer,
+    puedes usar font-size y un poco de padding para alcanzar un tamaño
+    de 48px o más, asegúrate de que los elementos estén lo suficientemente
+    separados para ser seleccionados fácilmente. 🟢
+  5. Deshazte de las propiedades order que están modificando el orden de 
+    los elementos por fuera del markup. 🔴
+*/
+
+
+.header {
+  height: 60px;
+  background-color: var(--color-primary);
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+}
+
+.header__title {
+  color: var(--color-background);
+  font-size: 20px;
+}
+
+.imc-calc {
+  min-height: calc(100vh - 140px);
+  width: 300px;
+  margin: 0 auto;
+  padding: 72px 0;
+}
+
+.imc-calc__title {
+  font-size: 28px;
+  text-align: center;
+  margin: 16px 0;
+}
+
+.imc-calc__description {
+  font-size: 11px;
+}
+
+.imc-form {
+  padding: 32px 0;
+  display: flex;
+  flex-flow: column;
+  gap: 24px 0;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.imc-form__label:nth-of-type(2) {
+  order: -1;
+}
+
+.imc-form__label {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  gap: 4px;
+  font-size: 11px;
+  color: var(--color-secondary);
+  font-weight: var(--font-bold);
+}
+
+.imc-form__input {
+  font-size: 11px;
+  border-radius: 4px;
+  border: 1px solid var(--color-primary);
+  padding: 4px 12px;
+  width: 100%;
+}
+
+.imc-form__cta {
+  background-color: var(--color-primary);
+  font-size: 11px;
+  padding: 4px;
+  color: var(--color-background);
+  border-radius: 8px;
+}
+
+.imc-result {
+  width: 200px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  gap: 11px 0;
+}
+
+.imc-result__calc {
+  font-size: 11px;
+  font-weight: var(--font-bold);
+}
+
+.footer {
+  height: 80px;
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 4px;
+}
+
+.footer__link:nth-of-type(2) {
+  order: 3;
+}
+
+.footer__link {
+  border: 1px solid red;
+  color: var(--color-background);
+  font-size: 16px;
+}
