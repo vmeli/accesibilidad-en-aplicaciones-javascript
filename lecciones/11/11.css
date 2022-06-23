@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Pacifico';
+  src: url('./assets/pacifico.ttf')  format('truetype')
+}
+
+
+main {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 32px 0;
+  min-height: calc(100vh - 300px);
+}
+
+canvas {
+  background: linear-gradient(45deg, var(--color-primary), var(--color-secondary));
+}
+
+header {
+  background: linear-gradient(45deg, var(--color-primary), var(--color-secondary));
+  height: 200px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 7rem;
+  font-family: 'Pacifico';
+  line-height: 200px;
+  color: var(--color-background);
+}
+
+h2 {
+  font-size: var(--font-m);
+  text-align: center;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px 16px;
+  list-style: none;
+  justify-items: center;
+  padding: 32px 0;
+}
+
+li {
+  background-color: var(--color-secondary);
+  height: 275px;
+  width: 230px;
+  border-radius: 4px;
+}
+
+footer {
+  height: 100px;
+  background-color: var(--color-primary);
+}
