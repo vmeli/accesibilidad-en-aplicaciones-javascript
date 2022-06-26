@@ -1,0 +1,60 @@
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-player {
+  width: 768px;
+  position: relative;
+  height: 432px;
+}
+
+.video-player video {
+  z-index: -1;
+  position: relative;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  gap: 0 72px;
+  z-index: -5;
+  background-color: var(--color-primary);
+  opacity: .8;
+}
+
+.controls--active {
+  z-index: 5;
+}
+
+.controls__button {
+  width: 60px;
+  height: 60px;
+}
+
+.controls__button--play,
+.controls__button--pause,
+.controls__button--stop {
+  background-color: transparent;
+  background-size: cover;
+}
+
+.controls__button--play {
+  background-image: url(./assets/play.png);
+}
+
+.controls__button--pause {
+  background-image: url(./assets/pause.png);
+
+}
+
+.controls__button--stop {
+  background-image: url(./assets/stop.png);
+}
