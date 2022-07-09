@@ -13,25 +13,25 @@ import stopIcon from './assets/stop.png';
   2. Habilita el enfoque por teclado para el elemento con la clase video-player
     usando la propiedad tabIndex con el valor de 0. 🟢
   3. Permite que el efecto de aparecer y desaparecer los controles al hacer hover
-    sea posible tambien al enfocar (onFocus) y desenfocar (onBlur) el reproductor. 🟢
+    sea posible también al enfocar (onFocus) y desenfocar (onBlur) el reproductor. 🟢
 
 
   Crédito Extra 01 👑 : Habilitando la interactividad de los controles por teclado
 
-  1. Habilita el enfoque de los controles usando la propiedad tabIndex en las imagenes. 🟢
+  1. Habilita el enfoque de los controles usando la propiedad tabIndex en las imágenes. 🟢
   2. Además de los clicks, habilita que los controles detecten la pulsación de las teclas
     usando la mismas funciones pero esta vez con el evento onKeyDown. 🟢
   3. Dentro de estos manejadores de eventos, validemos que cuando su origen sea una pulsación
     de tecla, solo sean validas las teclas Enter (13) y Espacio (32). 🟢
 
-  Crédito Extra 02 👑 : Reduciendo la complejidad con HTML semantico
+  Crédito Extra 02 👑 : Reduciendo la complejidad con HTML semántico
 
-  1. Reemplaza las imagenes por botones agregando las clases controls__button--play,
+  1. Reemplaza las imágenes por botones agregando las clases controls__button--play,
     controls__button--pause y controls__button--stop respectivamente. 🟡
-  2. Elimina los eventos de teclado que agregamos en el credito extra anterior. 🔴
-  3. Elimina las propiedades tabIndex que agregamos en el credito extra anterior. 🔴
+  2. Elimina los eventos de teclado que agregamos en el crédito extra anterior. 🔴
+  3. Elimina las propiedades tabIndex que agregamos en el crédito extra anterior. 🔴
   4. Elimina las validaciones complejas que agregamos en cada manejador de eventos. 🔴
-  5. Inspecciona una vez más usando tu teclado y evalua los resultados. 🟣
+  5. Inspecciona una vez más usando tu teclado y evalúa los resultados. 🟣
 */
 
 function App() {
