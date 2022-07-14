@@ -1,0 +1,25 @@
+{
+  "name": "xx",
+  "author": "Mateo Garcia - @teo-garcia",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "concurrently 'vite' 'npm run test:e2e'",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:e2e": "cypress open"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "concurrently": "^7.2.2",
+    "cypress": "^10.3.0",
+    "cypress-axe": "^1.0.0",
+    "vite": "^2.9.5"
+  }
+}

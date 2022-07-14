@@ -1,0 +1,70 @@
+.signup {
+  height: 100%;
+  display: flex;
+}
+
+.signup-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-section--form {
+  flex-flow: column;
+  gap: 48px 0;
+  width: 40%;
+}
+
+.signup-section--banner {
+  width: 60%;
+  background-image: radial-gradient(var(--color-secondary), var(--color-primary));
+}
+
+.signup-title {
+  font-size: var(--font-l);
+  color: var(--color-primary);
+  font-weight: var(--font-bold);
+}
+
+.signup-form {
+  display: flex;
+  flex-flow: column;
+  gap: 48px 0;
+  width: 55%;
+}
+
+.field-text {
+  display: flex;
+  flex-flow: column;
+  font-size: var(--font-s);
+  font-weight: var(--font-bold);
+  color: var(--color-primary);
+  gap: 8px 0;
+  position: relative;
+}
+
+.field-text__input {
+  border-radius: 8px;
+  width: 100%;
+  padding: 4px 10px;
+  font-weight: var(--font-regular);
+}
+
+.field-text__error {
+  font-size: var(--font-xs);
+  font-weight: var(--font-regular);
+  color: var(--color-text);
+  position: absolute;
+  top: 110%;
+  left: 1%;
+}
+
+.signup-form__button {
+  background-color: var(--color-primary);
+  font-size: var(--font-m);
+  padding: 6px 0;
+  color: var(--color-background);
+  font-weight: var(--font-bold);
+  border-radius: 8px;
+  text-align: center;
+}
