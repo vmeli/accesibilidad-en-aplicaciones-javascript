@@ -9,10 +9,10 @@
 }
 
 .bar {
-  height: 80px;
+  height: 100px;
   display: flex;
   align-items: center;
-  padding: 0 16px ;
+  padding: 0 24px;
 }
 
 .bar__title {
@@ -27,7 +27,7 @@
 
 .content {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 1fr 300px;
   height: calc(100vh - 250px);
 }
 
@@ -36,12 +36,12 @@
 }
 
 .panel--a {
-  grid-column: 1 / 4;
+  grid-column: 1 / 2;
 }
 
 .panel--b {
-  grid-column: 4 / 5;
-  background-color: var(--color-text);
+  grid-column: 2 / -1;
+  background-color: var(--color-secondary);
 }
 
 .info {

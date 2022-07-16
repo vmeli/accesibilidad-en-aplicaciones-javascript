@@ -20,7 +20,7 @@
   --color-text: #808080;
   --color-background: #FAFAFA;
   --color-primary: #63ced4;
-  --color-secondary: #6eb4c3;
+  --color-secondary: #6EB4C3;
 }
 
 .theme-light {
@@ -28,13 +28,14 @@
   color: var(--color-text);
 }
 
+
 .toggler {
   background-color: var(--color-secondary);
   border-radius: 8px;
   color: var(--color-text);
   cursor: pointer;
   font-size: var(--font-xs);
-  padding: 4px 10px;
+  padding: 4px 16px;
   position: absolute;
   right: 124px;
   top: 64px;
@@ -48,7 +49,7 @@
 }
 
 .header {
-  padding: 48px 0 0;
+  padding: 72px 0 0;
 }
 
 .header__title {
@@ -80,7 +81,7 @@
 
 .content__info {
   font-size: var(--font-s);
-  margin-bottom: 16px;
+  margin: 16px 0;
 }
 
 .content__pic {

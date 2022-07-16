@@ -5,7 +5,7 @@
   2. Deshazte de la propiedad visibility, la cual desaparece el contenido
     escondido de los narradores de voz. 🔴
   3. En su reemplazo, utiliza la propiedad z-index con un valor de 1
-    para la clase .panels__item--active. 🟢
+    dentro del selector .panels__item--active. 🟢
   4. Finalmente, inspecciona una vez más con el narrador de voz e identifica
   las ventajas de aparecer y desaparecer elementos de esta forma. 🟣
 */

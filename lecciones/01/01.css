@@ -1,6 +1,6 @@
 
 .article {
-  max-width: 1024px;
+  max-width: 768px;
   margin: 0 auto;
   display: flex;
   flex-flow: column;
@@ -12,10 +12,7 @@
 .title {
   font-weight: var(--font-bold);
   color: var(--color-primary);
-}
-
-.title--xxl {
-  font-size: var(--font-xxl);
+  margin-bottom: 16px;
 }
 
 .title--xl {
@@ -26,8 +23,14 @@
   font-size: var(--font-l);
 }
 
-.paragraph {
+.title--m {
   font-size: var(--font-m);
+  color: var(--color-secondary);
+}
+
+
+.paragraph {
+  font-size: var(--font-s);
   margin: 16px 0;
 }
 
@@ -36,7 +39,7 @@
 }
 
 .list__item {
-  font-size: var(--font-m);
+  font-size: var(--font-s);
   margin: 16px 0;
   gap: 0 16px;
   display: flex;

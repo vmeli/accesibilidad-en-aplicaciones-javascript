@@ -44,7 +44,7 @@ function App() {
             Confirmar Contraseña:
           </FieldText>
           <div className="signup-form__button" tabIndex={1}>
-            Registrarme ahora!
+            Empezar ahora!
           </div>
         </form>
       </section>

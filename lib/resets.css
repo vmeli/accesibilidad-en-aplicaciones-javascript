@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 
 :root {
-  --color-text: #05182A;
-  --color-background: #FAFAFA;
-  --color-neutral: #E4E4E4;
+  --color-text: #212121;
+  --color-background: #FFFFFF;
+  --color-neutral: #90A4AE;
   --color-primary: #7C4DFF;
-  --color-secondary: #AF77FA;
+  --color-secondary: #AA00FF;
   --font-primary: 'Ubuntu';
   --font-secondary: 'Ubuntu';
   --font-regular: 400;
@@ -13,10 +13,10 @@
   --font-xxs: 1.2rem;
   --font-xs: 1.6rem;
   --font-s: 2rem;
-  --font-m: 2.8rem;
-  --font-l: 5rem;
-  --font-xl: 7rem;
-  --font-xxl: 8rem;
+  --font-m: 3.2rem;
+  --font-l: 4.8rem;
+  --font-xl: 6.4rem;
+  --font-xxl: 7.2rem;
 }
 
 *,

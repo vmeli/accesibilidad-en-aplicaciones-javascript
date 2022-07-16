@@ -32,6 +32,7 @@ article {
 
 article img {
   margin: 32px 0;
+  border-radius: 8px;
 }
 
 article h1 {

@@ -64,7 +64,7 @@ function Header3D() {
 function BlogContent() {
   return (
     <main>
-      <h2>Latest Articles</h2>
+      <h2>Últimos Artículos</h2>
       <ul>
         {Array(6)
           .fill(null)

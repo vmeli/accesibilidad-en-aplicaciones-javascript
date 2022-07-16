@@ -25,7 +25,7 @@ function App() {
             Confirmar Contraseña:
           </FieldText>
           <button className="signup-form__button">
-            Registrarme ahora!
+            Empezar ahora!
           </button>
         </form>
       </section>
@@ -57,7 +57,6 @@ function FieldText(props) {
         className="field-text__input"
         onBlur={onBlur}
         ref={inputRef}
-        tabIndex={-1}
         {...rest}
       />
       {hasError && (

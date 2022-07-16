@@ -10,8 +10,8 @@ import './01.css';
 function App() {
   return (
     <div className="article">
-      <span className="title title--xxl">
-        Formularios en React: Una Guía Práctica
+      <span className="title title--xl">
+        Formularios en React: Una Guía Práctica ✍️
       </span>
       <span className="paragraph">
         El uso de formularios en desarrollo web es fundamental a la
@@ -29,16 +29,16 @@ function App() {
         <div className="list__item">Validación</div>
         <div className="list__item">Serialización</div>
       </div>
-      <div className="title title--xl">
+      <div className="title title--l">
         Patrones de React para crear formularios
       </div>
-      <div className="title title--l">Componentes Controlados</div>
+      <div className="title title--m">Componentes Controlados</div>
       <span className="paragraph">
         Un componente controlado es aquel que usa los cambios de
         estado o cambios de props como fuente de verdad para
         representarse en el DOM.
       </span>
-      <div className="title title--l">Componentes No Controlados</div>
+      <div className="title title--m">Componentes No Controlados</div>
       <span className="paragraph">
         Un componente no controlado, es aquel que no usa el estado o
         las props para representarse en el DOM, y, por el contrario,

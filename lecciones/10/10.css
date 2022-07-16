@@ -112,7 +112,6 @@
 }
 
 .footer__link {
-  border: 1px solid red;
   color: var(--color-background);
   font-size: 16px;
 }

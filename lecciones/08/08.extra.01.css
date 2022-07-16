@@ -17,11 +17,12 @@
   display: flex;
   flex-flow: column;
   justify-content: center;
-  background-color: var(--color-background);
+  background-color: var(--color-primary);
 }
 
 .content__title {
-  font-size: var(--font-l);
+  color: var(--color-background);
+  font-size: var(--font-xl);
   text-align: center;
 }
 
@@ -35,7 +36,7 @@
 }
 
 .content__label {
-  color: var(--color-primary);
+  color: var(--color-background);
   font-size: var(--font-m);
   font-weight: var(--font-bold);
 }
@@ -47,8 +48,10 @@
   display: block;
   font-weight: var(--font-regular);
   margin: 8px 0 0;
-  padding: 8px 8px;
+  padding: 8px 10px;
   width: 100%;
+  font-size: var(--font-s);
+  resize: none;
 }
 
 .content__radio-input {
@@ -57,7 +60,7 @@
 }
 
 .content__radio-label {
-  color: var(--color-primary);
+  color: var(--color-background);
   font-size: var(--font-m);
   font-weight: var(--font-bold);
   margin-left: 8px;
@@ -72,17 +75,18 @@
 }
 
 .content__button {
-  background-color: var(--color-primary);
+  background-color: var(--color-background);
   border-radius: 8px;
-  color: var(--color-background);
+  color: var(--color-text);
   display: inline-block;
   font-size: var(--font-m);
   font-weight: var(--font-bold);
   margin-left: auto;
-  padding: 8px 64px;
-  outline: none;
+  padding: 4px 48px;
 }
 
-.content__text-input:focus, .content__radio-input:focus, .content__button:focus {
-  outline: 2px solid #152A23;
+.content__text-input:focus,
+.content__radio-input:focus,
+.content__button:focus {
+  outline: 4px solid #39134C;
 }

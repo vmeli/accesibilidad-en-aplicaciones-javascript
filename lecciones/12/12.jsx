@@ -41,7 +41,7 @@ function App() {
 
   function handleControls(evt) {
     const evtType = evt.type;
-    if (evtType === 'mouseenter') {
+    if (evtType === 'mouseover') {
       setIsActive(true);
     } else {
       setIsActive(false);

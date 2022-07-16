@@ -9,7 +9,7 @@ function App() {
 
   function handleControls(evt) {
     const evtType = evt.type;
-    if (evtType === 'mouseenter' || evtType === 'focus') {
+    if (evtType === 'mouseover' || evtType === 'focus') {
       setIsActive(true);
     } else {
       setIsActive(false);
@@ -57,8 +57,8 @@ function App() {
     <div
       className="video-player"
       tabIndex={0}
-      onMouseEnter={handleControls}
-      onMouseLeave={handleControls}
+      onMouseOver={handleControls}
+      onMouseOut={handleControls}
       onFocus={handleControls}
       onBlur={handleControls}
     >

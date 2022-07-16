@@ -26,9 +26,9 @@ import intro from './assets/intro.jpeg';
 function RegisterForm() {
   return (
     <>
-      <span className="title">Registrate</span>
-      <div className="form">
-        <span className="label">Correo:</span>
+      <span className="title">Regístrate</span>
+      <div className="form" onSubmit={(evt) => evt.preventDefault()}>
+        <span className="label">Correo electrónico:</span>
         <input
           id="email"
           type="email"

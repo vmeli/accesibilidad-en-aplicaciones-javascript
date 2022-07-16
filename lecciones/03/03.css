@@ -19,13 +19,14 @@
   display: block;
   width: 100%;
   text-align: center;
-  background-color: rgba(255,255,255, .5);
+  background-color: var(--color-neutral);
+  opacity: .9;
   font-size: var(--font-m);
-  padding: 24px 0;
+  padding: 16px 0;
 }
 
 .content__section--keypad {
-  background-color: var(--color-primary);
+  background-image: linear-gradient(var(--color-primary), var(--color-secondary));
 }
 
 .pic {
@@ -55,7 +56,7 @@
   background-color: var(--color-background);
   border-radius: 8px;
   display: flex;
-  height: 64px;
+  height: 68px;
   justify-content: center;
   overflow: hidden;
   padding: 0 32px;
@@ -67,6 +68,7 @@
   font-weight: var(--font-bold);
   letter-spacing: 4px;
   width: 100%;
+  color: var(--color-secondary);
 }
 
 .keypad__buttons {
@@ -90,7 +92,7 @@
 }
 
 .keypad__button:focus {
-  outline: 8px solid gold;
+  outline: 8px solid #FFD54F;
 }
 
 .keypad__button--reset {
@@ -100,11 +102,15 @@
 }
 
 .indicatives {
-  font-size: var(--font-m);
+  font-size: var(--font-s);
   color: var(--color-background);
 }
 
 .indicatives__link {
   text-decoration: underline;
   color: var(--color-background);
+}
+
+.indicatives__link:focus {
+  outline: 6px solid #FFD54F;
 }

@@ -4,10 +4,10 @@ import intro from './assets/intro.jpeg';
 function RegisterForm() {
   return (
     <>
-      <h1 className="title">Registrate</h1>
+      <h1 className="title">Regístrate</h1>
       <form className="form" onSubmit={(evt) => evt.preventDefault()}>
         <label htmlFor="email" className="label">
-          Correo:
+          Correo electrónico:
         </label>
         <input
           id="email"

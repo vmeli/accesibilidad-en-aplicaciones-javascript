@@ -47,10 +47,11 @@
 
 .hero__button {
   background-color: var(--color-primary);
-  font-size: var(--font-m);
+  font-size: var(--font-s);
+  font-weight: var(--font-bold);
   color: var(--color-background);
   margin-right: 16px;
-  padding: 6px 24px;
+  padding: 8px 32px;
   border-radius: 8px;
 }
 
@@ -63,7 +64,7 @@
 }
 
 .content {
-  padding: 80px 0;
+  padding: 100px 0;
   clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
   background-color: var(--color-secondary);
 }
@@ -180,6 +181,7 @@
   margin-right: 16px;
   background-color: var(--color-primary);
   color: var(--color-background);
+  font-weight: var(--font-bold);
   width: 100%;
 }
 
