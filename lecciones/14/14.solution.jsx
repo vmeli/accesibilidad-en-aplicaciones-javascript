@@ -58,6 +58,7 @@ function NewItemForm(props) {
             type="text"
             name="name"
             required
+            autoComplete="off"
           />
         </label>
         <label className="new-item__label" name="quantity">

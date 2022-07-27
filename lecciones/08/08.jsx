@@ -9,9 +9,6 @@ import backgroundPic from './assets/background.jpeg';
 function App() {
   return (
     <main className="content">
-      <section className="background">
-        <img src={backgroundPic} alt="" className="background__pic" />
-      </section>
       <section className="rate">
         <h1 className="content__title">Califica tu experiencia</h1>
         <form className="content__form">
@@ -84,6 +81,9 @@ function App() {
           </fieldset>
           <button className="content__button">Enviar</button>
         </form>
+      </section>
+      <section className="background">
+        <img src={backgroundPic} alt="" className="background__pic" />
       </section>
     </main>
   );

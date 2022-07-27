@@ -1,8 +1,8 @@
 import '../../lib/resets.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './16';
-import AppSolution from './16.solution';
+import App from './17';
+import AppSolution from './17.solution';
 
 const previewMode = 'NEW';
 
