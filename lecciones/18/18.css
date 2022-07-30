@@ -1,0 +1,25 @@
+.lesson-picker__form {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  background-color: var(--color-text);
+  padding: 16px 28px;
+  border-radius: 8px 0 0 0;
+  border-top: 4px solid var(--color-secondary);
+  border-left: 4px solid var(--color-secondary);
+}
+
+.lesson-picker__label {
+  font-size: var(--font-s);
+  display: flex;
+  flex-flow: column;
+  gap: 8px 0;
+  color: var(--color-background);
+  font-weight: var(--font-bold);
+}
+
+.lesson-picker__select {
+  width: 300px;
+  color: var(--color-text);
+}
