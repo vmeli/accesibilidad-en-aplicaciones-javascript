@@ -23,8 +23,12 @@
   height: 100%;
 }
 
-.background, .rate {
-  width: 50%;
+.background {
+  width: 55%;
+}
+
+.rate {
+  width: 45%;
 }
 
 .background__pic {

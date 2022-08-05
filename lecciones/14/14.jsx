@@ -86,6 +86,7 @@ function NewItemForm(props) {
             name="name"
             required
             ref={nameInputRef}
+            autoComplete="off"
           />
         </label>
         <label className="new-item__label" name="quantity">

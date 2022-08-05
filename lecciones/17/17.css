@@ -1,0 +1,134 @@
+
+#root {
+  background-color: var(--color-text);
+}
+
+#root, .carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: var(--font-xl);
+  color: var(--color-background);
+  margin: 32px 0;
+}
+
+.carousel {
+  width: 100%;
+  max-width: 1000px;
+  height: 400px;
+  position: relative;
+  z-index: 0;
+}
+
+
+.carousel__item {
+  width: 100%;
+  height: 100%;
+  display: none;
+  border-top: 2px solid var(--color-neutral);
+  border-bottom: 2px solid var(--color-neutral);
+  border-radius: 8px;
+}
+
+.carousel__item--active {
+  animation: fadeIn 200ms ease-out forwards;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px 0;
+  padding: 0 64px;
+}
+
+.carousel__item:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-text);
+  opacity: .7;
+  border-radius: 8px;
+}
+
+.carousel__control {
+  height: 100%;
+  background-color: var(--color-secondary);
+  color: var(--color-background);
+  opacity: .9;
+  font-weight: var(--font-bold);
+  font-size: var(--font-l);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  position: relative;
+  z-index: 5;
+  border-radius: 8px 0 0 8px;
+}
+
+.carousel__control--next {
+  border-radius: 0 8px 8px 0;
+}
+
+
+
+.carousel__control:before {
+  content: "\2303";
+  display: inline-block;
+  transform: rotate(-90deg);
+}
+
+.carousel__control--next:before {
+  transform: rotate(90deg);
+}
+
+.carousel__control:focus {
+  outline: 4px solid gold;
+}
+
+.carousel__title, .carousel__description {
+  color: var(--color-background);
+}
+
+.carousel__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  border-radius: 8px;
+}
+
+
+.carousel__title {
+  font-size: var(--font-xl);
+  position: relative; 
+  z-index: 5;
+  text-align: left;
+  display: block;
+  width: 100%;
+}
+
+.carousel__description {
+  font-size: var(--font-m);
+  position: relative;
+  z-index: 5
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  
+  to {
+    opacity: 1;
+  }
+}

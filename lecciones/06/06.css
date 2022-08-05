@@ -39,6 +39,7 @@
   position: absolute;
   right: 124px;
   top: 64px;
+  text-transform: capitalize;
 }
 
 

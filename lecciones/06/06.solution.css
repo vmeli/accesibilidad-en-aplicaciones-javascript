@@ -5,6 +5,11 @@
   --color-secondary: #BA68C8;
 }
 
+.theme-light,
+.theme-dark {
+  transition: background 150ms ease-out, color 150ms ease-in;
+}
+
 .theme-light {
   background-color: var(--color-background);
   color: var(--color-text);
@@ -26,6 +31,7 @@
   position: absolute;
   right: 124px;
   top: 64px;
+  text-transform: capitalize;
 }
 
 

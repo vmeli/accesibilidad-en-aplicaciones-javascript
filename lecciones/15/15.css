@@ -33,6 +33,7 @@
   justify-content: center;
   align-items: center;
   gap: 32px 0;
+  animation: fadeIn 100ms ease-in forwards;
 }
 
 .gallery__modal-pic {
@@ -46,7 +47,7 @@
 }
 
 .gallery__modal-copyright a {
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 .gallery__modal-button {
@@ -57,4 +58,14 @@
   color: var(--color-background);
   background-color: transparent;
   line-height: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
