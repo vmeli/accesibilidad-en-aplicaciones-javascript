@@ -31,14 +31,15 @@ Puedes hacer un checkeo básico de estas herramientas usando la terminal:
 
 1. Clona el repositorio ejecutando el siguiente comando:
 
-  ```bash
-    git clone https://github.com/escuela-frontend/accesibilidad-en-aplicaciones-javascript
-  ```
+```bash
+  git clone https://github.com/escuela-frontend/accesibilidad-en-aplicaciones-javascript
+```
+
 2. Instala el proyecto usando el siguiente comando:
 
-  ```bash
-    cd accesibilidad-en-aplicaciones-javascript && npm i
-  ```
+```bash
+  cd accesibilidad-en-aplicaciones-javascript && npm i
+```
 
 3. Abre el repositorio haciendo uso de VSCode:
 
@@ -62,18 +63,16 @@ Este workshop esta dividido en 14 lecciones, cada una de ellas contiene un peque
 
 En cada reto encontrarás pistas y sugerencias que nuestros amigos han dejado para ayudarte a solucionar cada uno de los problemas. Identifica a tus amigos y entiende cual es su función en este workshop:
 
-
-| **Color** | **Descripción**|
-|:---------:|----------------------------------------------------------------------|
-| 🟣 | Inspecciona usando herramientas de desarrollo y/o tu intuición |
-| 🟡 | Modifica los elementos mencionados |
-| 🟢 | Agrega código que siga las sugerencias |
-| 🔴 | Elimina el código que esta causando el problema|
+| **Color** | **Descripción**                                                |
+| :-------: | -------------------------------------------------------------- |
+|    🟣     | Inspecciona usando herramientas de desarrollo y/o tu intuición |
+|    🟡     | Modifica los elementos mencionados                             |
+|    🟢     | Agrega código que siga las sugerencias                         |
+|    🔴     | Elimina el código que esta causando el problema                |
 
 ## Acerca de mi 👋
 
-![Foto de mi sonriendo](https://via.placeholder.com/1200x400/000/FFF)
-
+<img src="./assets/author.png" width="325" height="350" alt="Foto de mi sonriendo" style="margin: 16px 0;" />
 
 Mi nombre es Mateo Garcia, soy un Frontend Developer establecido en Medellin, Colombia 🇨🇴. He estado en la industria del desarrollo desde hace más de 8 años y se que aprender cosas nuevas puede resultar complicado en ocasiones. Mi tarea aquí es ayudarte a dominar los aspectos principales del desarrollo de aplicaciones web accesibles y construir juntos el mejor workshop de accesibilidad de habla hispana.
 
