@@ -1,4 +1,4 @@
-# Accesibilidad en aplicaciones Javascript
+# Accesibilidad en Aplicaciones JavaScript
 
 ![Banner titulado accesibilidad en aplicaciones Javascript](./assets/banner.svg)
 
