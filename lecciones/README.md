@@ -1,13 +1,14 @@
 # Leccion 12: Eventos del Mouse
 
-
-## Introducción
-
 El objeto de la lección es el siguiente:
 
 - Descubrir los problemas de los eventos cuando no se piensa con accesibilidad.
 - Conocer los eventos del teclados que son análogos a los eventos del mouse.
 - Aprender a devolver accesibilidad a los elementos customizados.
+
+
+
+## Introducción
 
 Javascript es un lenguaje orientado a eventos el cual nos permite realizar diferentes flujos a partir de las acciones de los usuarios. El mal uso de los eventos en la creación de nuestras aplicaciones puede generar problemas de accesibilidad al definir eventos demasiado específicos para un público que puede usar un widget de diferentes maneras.
 
