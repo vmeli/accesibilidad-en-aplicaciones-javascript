@@ -1,4 +1,4 @@
-# Accesibilidad en aplicaciones Javascript ♿️ 💻
+# Accesibilidad en aplicaciones Javascript
 
 ![Banner titulado accesibilidad en aplicaciones Javascript](./assets/banner.svg)
 
