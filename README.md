@@ -11,7 +11,6 @@ No pierdas la oportunidad de aprender uno de los skills más solicitados en la i
 ## Prerrequisitos
 
 - [Conocimientos básicos de Desarrollo Web](https://blog.teo-garcia.dev/que-demonios-es-desarrollo-web)
-- [Conocimientos básicos de React](https://www.escuelafrontend.com/cursos/curso-practico-de-react)
 
 ## Requerimientos de sistema
 
