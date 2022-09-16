@@ -2,7 +2,7 @@
 
 ![Banner titulado accesibilidad en aplicaciones Javascript](./assets/banner.svg)
 
-## Bienvenido a un nuevo workshop de Escuela Frontend 👋.
+Bienvenido a un nuevo workshop de Escuela Frontend 👋.
 
 El objetivo de este workshop es proporcionar las herramientas fundamentales para aprender a crear aplicaciones web accesibles. Este repositorio está compuesto de 14 lecciones con ejercicios prácticos que te ayudarán a afianzar los conocimientos vistos en cada módulo.
 
